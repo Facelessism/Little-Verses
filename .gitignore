@@ -1,0 +1,18 @@
+# Ignores node_modules for both frontend & backend
+client/node_modules/
+server/node_modules/
+
+# Ignores environment files
+client/.env
+server/.env
+
+# Ignores build artifacts
+client/build/
+server/dist/
+
+# Logs
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db

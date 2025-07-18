@@ -1,0 +1,9 @@
+.profile-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-container h1,
+.profile-container p {
+  font-weight: bold;
+}

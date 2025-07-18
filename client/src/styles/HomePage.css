@@ -1,0 +1,9 @@
+.home-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-text {
+  font-weight: bold;
+  margin-top: 10px;
+}
