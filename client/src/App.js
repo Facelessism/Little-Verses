@@ -11,6 +11,7 @@ import Profile from "./pages/Profile";
 import EditProfile from "./pages/EditProfile";
 import CreatePost from "./pages/CreatePost";
 import Notifs from "./pages/Notifs";
+import CategoryFilter from"./components/CategoryFilter";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/profile/:id/edit" element={<EditProfile />} />
         <Route path="/create-post" element={<CreatePost />} />
         <Route path="/notifications" element={<Notifs />} />
+        <Route path="/categories" element={<CategoryFilter />} />
         <Route path="*" element={<h1>404!!! Page Not Found</h1>} />
       </Routes>
     </Router>

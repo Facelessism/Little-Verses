@@ -1,0 +1,21 @@
+.category-bar {
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-pill {
+  padding: 8px 14px;
+  background: #5f27cd;
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ;
+}
+
+.category-pill:hover {
+  background: #383838;
+}

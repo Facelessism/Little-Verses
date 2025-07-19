@@ -1,9 +1,18 @@
 .profile-container {
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 
-.profile-container h1,
-.profile-container p {
-  font-weight: bold;
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  font-size: 18px;
+  margin-top: 10px;
 }

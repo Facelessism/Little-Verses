@@ -1,0 +1,23 @@
+.edit-profile-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.edit-profile-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edit-profile-container label{
+  font-weight: bold;
+}
+
+.edit-profile-container input,
+.edit-profile-container textarea {
+  padding: 20px;
+  font-size: 20px;
+}
