@@ -1,16 +1,10 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: rgb(151, 211, 248);
-}
-
 .create-post-wrapper {
-  max-width: 720px;
-  margin: 70px auto;
-  padding: 32px;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 64px;
   background: rgb(255, 255, 255);
   border: 1px solid #a5a4a4;
-  border-radius: 16px;
+  border-radius: 22px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   font-family: 'Segoe UI', sans-serif;
 }
