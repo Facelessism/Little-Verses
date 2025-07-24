@@ -25,12 +25,15 @@ function CreatePost() {
           onChange={(e) => setCategory(e.target.value)}
         >
           <option value="">Select A Category</option>
-          <option value="Tech">Tech</option>
-          <option value="Life">Life</option>
-          <option value="Education">Education</option>
-          <option value="Work">Work</option>
-          <option value="Interests">Interests</option>
-          <option value="Vent">Vent</option>
+          <option value="tech">Tech</option>
+          <option value="life">Life</option>
+          <option value="education">Education</option>
+          <option value="work">Work</option>
+           <option value="health">Health</option>
+            <option value="productivity">Productivity</option>
+             <option value="hobby">Hobby</option>
+          <option value="interests">Interests</option>
+          <option value="vent">Vent</option>
         </select>
 
         <textarea

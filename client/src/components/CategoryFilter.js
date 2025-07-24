@@ -2,7 +2,7 @@ import React from "react";
 
 import '../styles/CategoryFilter.css';
 
-const categories = ["Tech", "Life", "Education", "Health", "Productivity", "Hobby"];
+const categories = ["Tech", "Life", "Education", "Work", "Health","Productivity", "Hobby", "Interests","Vent"];
 
 function CategoryFilter() {
   return (
