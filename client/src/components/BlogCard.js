@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import '../styles/BlogCard.css';
 
 function BlogCard({ post }) {
@@ -15,7 +15,9 @@ function BlogCard({ post }) {
 
         <div className="blog-footer">
           <span>By {post.author}</span>
-          <a href="#" className="read-more">Read More</a>
+          <Link to={`/post/${post.id}`} className="read-more">
+            Read More
+          </Link>
         </div>
       </div>
     </div>
