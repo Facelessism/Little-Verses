@@ -1,13 +1,77 @@
-.register-container {
-  max-width: 400px;
-  margin: auto;
-  padding: 30px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+body {
+  background-color: #eaf2ff;
+  margin: 0;
+  padding: 0;
 }
 
-.register-container h1,
-.register-container p {
+.register-wrapper {
+  max-width: 440px;
+  margin: 80px auto;
+  padding: 40px 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   text-align: center;
-  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register-wrapper h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.register-subtitle {
+  font-size: 14px;
+  color: #2e2e2e;
+  margin-bottom: 30px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-form input {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #fafafa;
+  transition: 0.3s ease;
+}
+
+.register-form input:focus {
+  border-color: #5712e0;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(95, 39, 205, 0.1);
+}
+
+.register-form button {
+  background: linear-gradient(to right, #5712e0, #c774eb);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-form button:hover {
+  background: linear-gradient(to right, #5712e0, #c774eb);
+}
+
+.register-hint {
+  font-size: 13px;
+  color: #555;
+  margin-top: 15px;
+}
+
+.register-hint a {
+  color: #5712e0;
+  text-decoration: none;
+  font-weight: 500;
 }
