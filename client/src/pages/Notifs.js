@@ -2,11 +2,36 @@ import React from "react";
 
 import '../styles/Notifs.css';
 
-function Notifs() {
+const dummyNotifications = [
+  {
+    id: 1,
+    message: "Anisha commented on your post 'Three Lessons'",
+    time: "2h ago",
+    read: false,
+  },
+  {
+    id: 2,
+    message: "Rahul liked your post 'Workplace Productivity'",
+    time: "5h ago",
+    read: true,
+  },
+];
+
+function Notifications() {
   return (
-    <div>
+    <div className="notifications-container">
       <h1>Notifications</h1>
-      <p>See alerts from your blogs & annoucements</p>
+      <ul className="notification-list">
+        {dummyNotifications.map((note) => (
+          <li
+            key={note.id}
+            className={`notification-item ${note.read ? "read" : "unread"}`}
+          >
+            <p>{note.message}</p>
+            <span className="time">{note.time}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
