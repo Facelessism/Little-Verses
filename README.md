@@ -1,6 +1,6 @@
 # Little Verses- My Blogging App
 
-Little Verses is a full-stack blogging platform built to experiment with modern web technologies while creating a clean and expressive space for writing and sharing ideas.
+Little Verses is a lightweight, developer-focused blogging platform designed for sharing ideas and code snippets without media clutter. It combines the full MERN stack with modern UX and robust moderation features for a clean, expressive writing experience.
 
 ---
 
@@ -74,6 +74,7 @@ blog-platform/
 ├── .gitignore
 └── README.md
 ```
+---
 
 ## Getting Started
 
@@ -118,32 +119,52 @@ npm test
 - Backend tests are located in backend/tests
 - Additional tests will be added as features are implemented
 
-## Project Status
 
+## Progress Roadmap
+
+### Phase 1 – Core MVP
+- [ ] User Authentication (Register/Login) with JWT  
+- [ ] CRUD operations for blog posts  
+- [ ] Responsive frontend with React components  
+- [ ] Secure REST APIs with middleware-based authentication  
+
+### Phase 2 – User Interaction Enhancements
+- [ ] Likes and Comments on posts (flat, non-threaded)  
+- [ ] Notifications for interactions (new comments, likes)  
+- [ ] Profile customization (avatar, bio, settings)  
+
+### Phase 3 – Advanced Features
+- [ ] *Search & Filter Posts:* 
+  - [ ] Latest Posts (newest first)  
+  - [ ] Most Commented / Viewed Posts  
+  - [ ] Filter by Tags  
+  - [ ] Search by Keywords or Username  
+
+- [ ] *Code Snippet Support:* 
+  - [ ] Embed formatted code blocks in posts  
+  - [ ] Syntax highlighting for popular languages (JS, Python, etc.)  
+  - [ ] No images/videos—lightweight, developer-friendly  
+
+- [ ] Drafts and Scheduled Posts  
+- [ ] Rich Text Editor (text + code)  
+- [ ] Pagination / Infinite Scroll for smooth UX  
+
+### Phase 4 – Performance & Security
+- [ ] *Rate Limiting / Spam Detection:*  
+  - [ ] Prevent excessive requests or submissions  
+  - [ ] Detect and block spammy posts or comments  
+
+- [ ] *Content Moderation:*
+  - [ ] Filter vulgar, hateful, or toxic words in posts/comments  
+  - [ ] Optional admin override for flagged content  
+
+- [ ] *Frontend & Backend Optimization:* 
+  - [ ] Lazy loading for posts and components  
+  - [ ] Backend caching (Redis/Memcached) for faster API responses  
+
+### Upcoming phases to be updated soon !!!
+
+## Project Status
 Under active development
 - Contributions and feedback are welcome
-- Open issues or submit pull requests for improvement
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Open issues or submit pull requests for introducing improvement
