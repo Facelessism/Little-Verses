@@ -1,6 +1,6 @@
-# Little Verses- My Blogging App
+# Little Verses- A Blogging App
 
-Little Verses is a lightweight, developer-focused blogging platform designed for sharing ideas and code snippets without media clutter. It combines the full MERN stack with modern UX and robust moderation features for a clean, expressive writing experience.
+Little Verses is a lightweight, developer-focused blogging platform designed for sharing vents, ideas and daily rants without media clutter. It combines the full MERN stack with modern UX and robust moderation features for a clean, expressive writing experience.
 
 ---
 
