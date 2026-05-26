@@ -36,7 +36,7 @@ Little Verses is a lightweight, developer-focused blogging platform designed for
 ```text
 blog-platform/
 │
-├── backend/
+├── server/
 │   ├── src/
 │   │   ├── controllers/   # Logic for handling requests
 │   │   ├── models/        # Database models
@@ -50,7 +50,7 @@ blog-platform/
 │   ├── package.json
 │   └── README.md
 │
-├── frontend/
+├── client/
 │   ├── public/            # Static assets
 │   ├── src/
 │   │   ├── components/    # Reusable UI components
